@@ -3,12 +3,12 @@ package com.driver;
 import org.w3c.dom.ls.LSOutput;
 
 public class Main {
-    static class B extends A {
+    public static class B extends A {
         public String meth() {
             return "Method is overridden in Extendend class B";
         }
     }
-    static class A {
+    public static class A {
         public String meth() {
             return "Invoking method from class A";
         }
